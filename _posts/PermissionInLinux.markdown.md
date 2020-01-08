@@ -1,5 +1,3 @@
-﻿
-**
 ---
 layout: post
 title:  Permission In Linux  Guide
@@ -16,9 +14,9 @@ Two Type of Permission
  - DAC(Discretionary Access Control)
  - MAC(Mandatory Access Control)
 
-**DAC  Permission**
+** DAC  Permission **
 
-![Permission](/img/dac.png)
+![Permission](./img/dac.png)
 
 
 read(r)=4
@@ -33,11 +31,11 @@ Three main component of file/floder
 
 ![]({{site.baseurl}}/img/Selinux.jpg)
  
-**Command for DAC permission** 
+** Command for DAC permission ** 
 
 #chmod (change mode)
 
-![Chmd Permission](/img/chmoddac.png)
+![Chmd Permission](./img/chmoddac.png)
 
 
 In this case,
@@ -51,7 +49,7 @@ You want to add execute permission of all three component
 #chmod  a+x filename.txt
 #chmod 751 filename.txt
 
-![Adding Execute Permission](/img/addx.png)
+![Adding Execute Permission](./img/addx.png)
 
 
 
